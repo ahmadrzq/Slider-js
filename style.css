@@ -17,14 +17,46 @@ body {
 }
 
 .container {
-  height: 100%;
-  width: 100%;
   padding: 80px;
   display: flex;
-  justify-content: center;
   align-items: center;
+}
+.container a {
+  cursor: pointer;
+  margin: 0px 50px;
+}
+
+.item {
+  display: none;
 }
 
 .item img {
   width: 50%;
+  object-fit: contain;
+}
+
+/* Animasi */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
