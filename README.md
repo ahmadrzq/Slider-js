@@ -1,1 +1,1 @@
-# Slider-js
+This slider build using HTML CSS and Javascript
