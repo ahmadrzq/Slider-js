@@ -17,13 +17,21 @@ body {
 }
 
 .container {
+  background: gainsboro;
+  width: 100%;
   padding: 80px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-.container a {
+
+.prev,
+.next {
+  font-weight: bold;
+  font-size: 18px;
   cursor: pointer;
-  margin: 0px 50px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
 .item {
